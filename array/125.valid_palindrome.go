@@ -1,3 +1,4 @@
+package array
 
 func isPalindrome(s string) bool {
 	sLen := len(s)
@@ -10,8 +11,6 @@ func isPalindrome(s string) bool {
 	lIndex, rIndex := 0, sLen-1
 	for {
 		if lIndex >= rIndex {
-			fmt.Println(lIndex)
-			fmt.Println(rIndex)
 			return true
 		}
 		lstr := s[lIndex]
